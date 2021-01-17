@@ -8,11 +8,11 @@ const Reports = (props) => {
     return (
         <div>
             <h2>Reports for service ...</h2>
-            <table>
+            <table className="table table-hover">
                 <thead>
-                    <tr>
-                        <th>Date and Time</th>
-                        <th>Status</th>
+                    <tr className="table-primary">
+                        <th scope="col">Date and Time</th>
+                        <th scope="col">Status</th>
                     </tr>
                 </thead>
                 <tbody>

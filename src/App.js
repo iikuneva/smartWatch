@@ -6,6 +6,7 @@ import Register from './pages/Register/Register'
 import Header from './components/Header/Header'
 import Services from './pages/Services/Services'
 import Reports from './pages/Reports/Reports'
+import Home from './pages/Home/Home'
 
 function App() {
   return (
@@ -13,6 +14,11 @@ function App() {
       <BrowserRouter>
       <Header/>
       <Switch>
+      <Route
+       exact
+       path='/'
+       component={Home}
+      />
       <Route
        exact
        path='/login'
