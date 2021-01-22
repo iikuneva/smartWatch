@@ -22,9 +22,6 @@ const Header = (props) => {
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/logout">Logout</NavLink>
                     </li>
-                    <li className="nav-item">
-                        Test Li
-                    </li>
                 </ul>
             </div>
         </header>
